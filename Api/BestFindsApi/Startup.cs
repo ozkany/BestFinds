@@ -61,7 +61,7 @@ namespace BestFindsApi
                 c.RoutePrefix = string.Empty;
             });
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
